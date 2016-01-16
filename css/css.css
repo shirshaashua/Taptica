@@ -1,0 +1,20 @@
+﻿body {
+}
+.sortorder:after {
+    content: '\25b2';
+}
+.sortorder.reverse:after {
+    content: '\25bc';
+}
+.instruction{
+    font-size: 10px;
+}
+.space{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/************Bootstrap Changes**************/
+button{
+    background: transparent;
+    border:none;
+}
